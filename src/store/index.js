@@ -9,13 +9,13 @@ const counterReducer = (state = {counter: 0}, action) => {
         return {
             counter: state.counter - 1
         }
-    } else if(action.type === 'incrementby2') {
+    } else if(action.type === 'incrementby5') {
         return {
-            counter: state.counter + 2
+            counter: state.counter + 5
         }
-    } else if(action.type === 'decrementby2') {
+    } else if(action.type === 'decrementby5') {
         return {
-            counter: state.counter - 2
+            counter: state.counter - 5
         }
     }
 
